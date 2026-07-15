@@ -1,14 +1,151 @@
+# PagesCMS 配置 - fffazz 博客 (Firefly-Mod)
+# 文档: https://pagescms.org/docs/configuration/
+
 media:
   input: src/content/posts
   output: /
 
 content:
+  # ---- 博客文章 ----
   - name: posts
-    label: Blog Posts
+    label: 📝 博客文章
     type: collection
     path: src/content/posts
     fields:
       - name: title
+        label: 标题
         type: string
+        required: true
+
+      - name: published
+        label: 发布时间
+        type: date
+        required: true
+        options:
+          time: false
+          format: yyyy-MM-dd
+
+      - name: updated
+        label: 更新时间
+        type: date
+        options:
+          time: false
+          format: yyyy-MM-dd
+
+      - name: draft
+        label: 草稿
+        type: boolean
+        default: false
+
+      - name: description
+        label: 文章摘要
+        type: text
+
+      - name: image
+        label: 封面图
+        type: image
+
+      - name: tags
+        label: 标签
+        type: select
+        options:
+          multiple: true
+          creatable: true
+
+      - name: category
+        label: 分类
+        type: string
+
+      - name: pinned
+        label: 置顶
+        type: boolean
+        default: false
+
       - name: body
+        label: 正文
         type: rich-text
+        required: true
+
+  # ---- 关于页面 ----
+  - name: about
+    label: 📄 关于页面
+    type: file
+    path: src/content/spec/about.md
+    fields:
+      - name: title
+        label: 页面标题
+        type: string
+        default: "关于我"
+      - name: body
+        label: 正文
+        type: rich-text
+
+  # ---- 留言板 ----
+  - name: guestbook
+    label: 📬 留言板
+    type: file
+    path: src/content/spec/guestbook.md
+    fields:
+      - name: title
+        label: 页面标题
+        type: string
+        default: 留言板
+      - name: body
+        label: 正文
+        type: rich-text
+
+  # ---- 站点主配置 ----
+  - name: site-config
+    label: 🌐 站点主配置
+    type: file
+    path: src/config/siteConfig.ts
+    format: code
+
+  # ---- 首页配置 ----
+  - name: home-config
+    label: 🏠 首页配置
+    type: file
+    path: src/config/homeConfig.ts
+    format: code
+
+  # ---- 公告栏 ----
+  - name: announcement-config
+    label: 📢 公告栏
+    type: file
+    path: src/config/announcementConfig.ts
+    format: code
+
+  # ---- 导航栏 ----
+  - name: nav-bar-config
+    label: 🧭 导航栏
+    type: file
+    path: src/config/navBarConfig.ts
+    format: code
+
+  # ---- 侧边栏 ----
+  - name: sidebar-config
+    label: 📐 侧边栏布局
+    type: file
+    path: src/config/sidebarConfig.ts
+    format: code
+
+  # ---- 页脚 ----
+  - name: footer-config
+    label: 📏 页脚设置
+    type: file
+    path: src/config/footerConfig.ts
+    format: code
+
+  # ---- 评论系统 ----
+  - name: comment-config
+    label: 💬 评论系统
+    type: file
+    path: src/config/commentConfig.ts
+    format: code
+
+  # ---- 友链数据 ----
+  - name: friends-data
+    label: 🔗 友链数据
+    type: file
+    path: src/config/friendsConfig.ts
+    format: code
