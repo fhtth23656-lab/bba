@@ -21,10 +21,7 @@ content:
     type: collection
     path: src/content/posts
     format: yaml-frontmatter
-    extension: .md
-    filename:
-      template: "{primary}.md"
-      field: create
+    filename: "{primary}.md"
     exclude: ["**/image/**", "**/cover/**", "**/*.avif", "**/*.webp", "**/*.png", "**/*.jpg"]
     view:
       primary: title
