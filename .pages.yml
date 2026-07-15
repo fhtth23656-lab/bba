@@ -11,7 +11,13 @@ content:
     label: 📝 博客文章
     type: collection
     path: src/content/posts
-    subfolders: true
+    exclude:
+      - "**/image/**"
+      - "**/cover/**"
+      - "**/*.avif"
+      - "**/*.webp"
+      - "**/*.png"
+      - "**/*.jpg"
     fields:
       - name: title
         label: 标题
