@@ -17,6 +17,7 @@ import rehypeSlug from "rehype-slug";
 import remarkDirective from "remark-directive"; /* Handle directives */
 import remarkMath from "remark-math";
 import rehypeCallouts from "rehype-callouts";
+import remarkGfm from "remark-gfm";
 import remarkSectionize from "remark-sectionize";
 import { expressiveCodeConfig, siteConfig } from "./src/config";
 import { i18n } from "./src/i18n/translation";
@@ -182,6 +183,7 @@ export default defineConfig({
 	markdown: {
 		processor: unified({
 			remarkPlugins: [
+				remarkGfm,
 				remarkMath,
 				remarkReadingTime,
 				remarkImageGrid,
