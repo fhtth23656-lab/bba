@@ -1,0 +1,4 @@
+node_modules/
+posts_backup.json
+screenshot-*.png
+.vscode/

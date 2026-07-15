@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /_astro/
+
+Sitemap: https://tblog.mmzhiku.xyz/sitemap-index.xml

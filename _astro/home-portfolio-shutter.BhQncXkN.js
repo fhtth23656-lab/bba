@@ -1,0 +1,1 @@
+const S="(min-width: 769px)";const r=.5;function R(t,E,T=4){const n=Number(t),_=Number(E),e=Math.round((Number.isFinite(_)&&_>0?_:0)*T);return Math.max(Number.isFinite(n)?n:0,e)}function o(t=5,E=.5,T=.22){return Number((t*E+T).toFixed(2))}export{S as D,r as S,R as a,o as g};
