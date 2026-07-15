@@ -143,8 +143,11 @@ content:
 
           - name: body
             label: 正文
-            type: rich-text
+            type: code
             required: true
+            options:
+              format: markdown
+            description: 支持标准 Markdown，超链接格式：[文字](URL)
 
       # 关于页面
       - name: about
@@ -159,7 +162,9 @@ content:
             default: "关于我"
           - name: body
             label: 正文
-            type: rich-text
+            type: code
+            options:
+              format: markdown
 
       # 友情链接
       - name: friends
@@ -195,7 +200,9 @@ content:
             default: 留言板
           - name: body
             label: 正文
-            type: rich-text
+            type: code
+            options:
+              format: markdown
 
   # ============================================================
   # ⚙️ 站点设置
