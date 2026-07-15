@@ -6,13 +6,15 @@ media:
     label: 文章配图
     input: src/content/posts
     output: /
-    categories: [image]
+    categories:
+      - image
 
   - name: assets
     label: 站点资源
     input: public/assets
     output: /assets
-    categories: [image]
+    categories:
+      - image
 
 content:
   # ---- 博客文章 ----
@@ -22,12 +24,30 @@ content:
     path: src/content/posts
     format: yaml-frontmatter
     filename: "{primary}.md"
-    exclude: ["**/image/**", "**/cover/**", "**/*.avif", "**/*.webp", "**/*.png", "**/*.jpg"]
+    exclude:
+      - "**/image/**"
+      - "**/cover/**"
+      - "**/*.avif"
+      - "**/*.webp"
+      - "**/*.png"
+      - "**/*.jpg"
     view:
       primary: title
-      fields: [title, published, tags, category, draft, pinned]
-      sort: ["published desc", "title asc"]
-      search: [title, description, tags, category]
+      fields:
+        - title
+        - published
+        - tags
+        - category
+        - draft
+        - pinned
+      sort:
+        - "published desc"
+        - "title asc"
+      search:
+        - title
+        - description
+        - tags
+        - category
       default:
         sort: published
         order: desc
@@ -85,10 +105,14 @@ content:
         type: select
         options:
           values:
-            - { label: 中文, value: "" }
-            - { label: English, value: en }
-            - { label: 日本語, value: ja }
-            - { label: 繁體中文, value: zh_TW }
+            - label: 中文
+              value: ""
+            - label: English
+              value: en
+            - label: 日本語
+              value: ja
+            - label: 繁體中文
+              value: zh_TW
 
       - name: pinned
         label: 置顶
