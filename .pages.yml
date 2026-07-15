@@ -11,6 +11,7 @@ content:
     label: 📝 博客文章
     type: collection
     path: src/content/posts
+    subfolders: true
     fields:
       - name: title
         label: 标题
