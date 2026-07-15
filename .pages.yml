@@ -356,18 +356,6 @@ content:
     format: code
     description: PlantUML 服务器地址和明暗主题配置
 
-# 文章导入导出操作按钮
-actions:
-  - name: export-posts
-    label: 📤 导出文章为 JSON
-    description: 将所有博客文章（Markdown + frontmatter）导出为一个 JSON 文件
-    workflow: export-posts.yml
-
-  - name: import-posts
-    label: 📥 从 JSON 导入文章
-    description: 从 posts-import.json 读取并批量创建/更新博客文章
-    workflow: import-posts.yml
-
 settings:
   content:
     merge: false
