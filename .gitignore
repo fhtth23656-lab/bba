@@ -37,4 +37,5 @@ posts-export.json
 posts-import.json
 _frontmatter.json
 screenshot-*.png
+github-*.png
 .vscode/
