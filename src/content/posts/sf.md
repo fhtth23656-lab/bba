@@ -4,6 +4,7 @@ published: 2026-07-17
 updated: 2026-07-17
 draft: false
 description: 不要安装多款杀毒软件
+category: 学习文档
 pinned: false
 comment: true
 ---
