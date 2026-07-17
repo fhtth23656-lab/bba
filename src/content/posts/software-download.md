@@ -12,7 +12,7 @@ comment: true
 ㅤ软件搜索下载
 我个人建议使用必应或者谷歌（有条件的话）直接搜索下载，基本都排列在第一个。如果你确实习惯使用国内搜索引擎，那就安装一个广告拦截插件，并且认准有”官网”二字标识的！这样就基本不会下载错了。常被下载错的Steam，官方地址是”store.steampowered.com/“。
 
-
+https://img2.nloln.de/file/BQACAgUAAyEGAASLVN5eAAJimWpaXIv3WxsrXPQp-dGIgctSGQ_gAALEIgACQiHYVnuFOtAiw2PrPQQ.png
 
 有人会问：”我用电脑的xx市场下载可以吗？”我个人对于软件下载还是建议直接进官网下载，这是最直接的方式。第三方软件市场并不是什么软件都有，每个人的电脑都不同自带的商店也不同，这里我不好做判断
 
