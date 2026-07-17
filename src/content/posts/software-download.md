@@ -5,7 +5,6 @@ updated: 2026-07-17
 draft: false
 description: 这篇文章帮你解决电脑软件下载安装的各种坑
 category: 学习文档
-lang: zh_TW
 pinned: false
 comment: true
 ---
