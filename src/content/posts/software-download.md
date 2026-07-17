@@ -10,32 +10,31 @@ comment: true
 ---
 ㅤ软件搜索下载
 我个人建议使用必应或者谷歌（有条件的话）直接搜索下载，基本都排列在第一个。如果你确实习惯使用国内搜索引擎，那就安装一个广告拦截插件，并且认准有”官网”二字标识的！这样就基本不会下载错了。常被下载错的Steam，官方地址是”store.steampowered.com/“。
-
-https://img2.nloln.de/file/BQACAgUAAyEGAASLVN5eAAJimWpaXIv3WxsrXPQp-dGIgctSGQ_gAALEIgACQiHYVnuFOtAiw2PrPQQ.png
+、
 
 有人会问：”我用电脑的xx市场下载可以吗？”我个人对于软件下载还是建议直接进官网下载，这是最直接的方式。第三方软件市场并不是什么软件都有，每个人的电脑都不同自带的商店也不同，这里我不好做判断
 
 ‎‎‎‎‎‎‎ㅤ安装注意项
 软件下载好后，安装时要查看安装路径。一般软件的安装路径默认都是C盘，建议安装到其他盘符。有些软件也会安装的时候就同时让你选择缓存文件的存放位置，也尽量也不要放到C盘。
 
-
+https://img2.nloln.de/file/BQACAgUAAyEGAASLVN5eAAJimWpaXIv3WxsrXPQp-dGIgctSGQ_gAALEIgACQiHYVnuFOtAiw2PrPQQ.png
 
 软件安装的目录名称，最好设置为英文，不要用中文以及不要有空格。有些软件会因为目录是中文而导致运行不了，为了避免后期不必阳的麻烦，软件路径要设置为英文。
 
-
+https://img2.nloln.de/file/BQACAgUAAyEGAASLVN5eAAJimGpaXIoDmAGgGs244QGJchL7KERwAALDIgACQiHYVlJ8plY-54oxPQQ.png
 
 软件安装完成后，要注意检查是否有捆绑软件软件！
 
-
+https://img2.nloln.de/file/BQACAgUAAyEGAASLVN5eAAJimmpaXI3GkNcZb8LVDw17BxhxXrS4AALFIgACQiHYVslmyzB0lpb6PQQ.png
 
 ‎‎‎‎‎‎‎ㅤ缓存文件设置
 软件安装后要养成好习惯，先进入设置修改下文件缓存位置，因为基本都是默认在C盘的，若你已经有软件是缓存在C盘的了，你也可以切换文章，基本都会进行文件的迁移的
 
-
+https://img2.nloln.de/file/BQACAgUAAyEGAASLVN5eAAJim2paXI-SL_c1MEYE6x7GqlSn2VOYAALGIgACQiHYVo_wx0GlrLqIPQQ.png
 
 电脑缓存文件大头基本是微信(以及QQ），快去检查下你的微信缓存文件设置吧
 
-
+https://img2.nloln.de/file/BQACAgUAAyEGAASLVN5eAAJinGpaXJFvY0oyqc0yC3QEJLDxZTtBAALHIgACQiHYVnaLZNCWn7uiPQQ.png
 
 ‎‎‎‎‎‎‎ㅤPCDN关闭
 PCDN详细科普内容推荐：七天上传 700G，视频平台偷流量究竟有多猖獗？https://www.bilibili.com/video/BV1RFJ1zUEn2/?spm_id_from=333.337.search-card.all.click&vd_source=359017bcb34d2c9bc2acedbd19cf30ca
