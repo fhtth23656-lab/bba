@@ -48,7 +48,7 @@ if (process.env.NODE_ENV === "development") {
 export default defineConfig({
 	site: siteConfig.site_url,
 	
-	base: "/",
+	base: "/bba",
 	trailingSlash: "always",
 
 	// 图像优化配置

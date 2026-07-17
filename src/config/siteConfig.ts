@@ -13,7 +13,7 @@ export const siteConfig: SiteConfig = {
 	subtitle: "fffazz",
 
 	// 站点 URL
-	site_url: "https://tblog.mmzhiku.xyz",
+	site_url: "https://fhtth23656-lab.github.io/bba",
 
 	// 站点描述
 	description: "fffazz的博客，记录个人学习、工作、AI相关的内容",
