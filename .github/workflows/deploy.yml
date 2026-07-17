@@ -3,17 +3,7 @@ name: Build and Deploy
 on:
   push:
     branches: [main]
-    paths:
-      - "src/**"
-      - "public/**"
-      - "scripts/**"
-      - "astro.config.mjs"
-      - "package.json"
-      - "pnpm-lock.yaml"
-      - "tsconfig.json"
-      - "svelte.config.js"
-      - "postcss.config.mjs"
-      - "pagefind.yml"
+  workflow_dispatch:
 
 concurrency:
   group: pages
