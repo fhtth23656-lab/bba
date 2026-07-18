@@ -50,51 +50,51 @@ export const siteConfig: SiteConfig = {
 	// Favicon 配置
 	favicon: [
 		{
-			src: `${B}favicon/favicon.ico`,
+			src: "/favicon/favicon.ico",
 			sizes: "32x32",
 		},
 		{
-			src: `${B}favicon/favicon-16x16.png`,
+			src: "/favicon/favicon-16x16.png",
 			sizes: "16x16",
 		},
 		{
-			src: `${B}favicon/favicon-32x32.png`,
+			src: "/favicon/favicon-32x32.png",
 			sizes: "32x32",
 		},
 		{
-			src: `${B}favicon/favicon-48x48.png`,
+			src: "/favicon/favicon-48x48.png",
 			sizes: "48x48",
 		},
 		{
-			src: `${B}favicon/favicon.svg`,
+			src: "/favicon/favicon.svg",
 			sizes: "any",
 		},
 		{
-			src: `${B}favicon/apple-touch-icon.png`,
+			src: "/favicon/apple-touch-icon.png",
 			sizes: "180x180",
 		},
 		{
-			src: `${B}favicon/apple-touch-icon-152x152.png`,
+			src: "/favicon/apple-touch-icon-152x152.png",
 			sizes: "152x152",
 		},
 		{
-			src: `${B}favicon/apple-touch-icon-167x167.png`,
+			src: "/favicon/apple-touch-icon-167x167.png",
 			sizes: "167x167",
 		},
 		{
-			src: `${B}favicon/apple-touch-icon-180x180.png`,
+			src: "/favicon/apple-touch-icon-180x180.png",
 			sizes: "180x180",
 		},
 		{
-			src: `${B}favicon/android-chrome-192x192.png`,
+			src: "/favicon/android-chrome-192x192.png",
 			sizes: "192x192",
 		},
 		{
-			src: `${B}favicon/android-chrome-512x512.png`,
+			src: "/favicon/android-chrome-512x512.png",
 			sizes: "512x512",
 		},
 		{
-			src: `${B}favicon/safari-pinned-tab.svg`,
+			src: "/favicon/safari-pinned-tab.svg",
 			sizes: "any",
 		},
 	],
@@ -109,7 +109,7 @@ export const siteConfig: SiteConfig = {
 		// 4. 网络图片: { type: "url", value: "https://example.com/logo.png", alt: "Logo" }
 		logo: {
 			type: "image",
-			value: `${B}favicon/apple-touch-icon.png`,
+			value: "/favicon/apple-touch-icon.png",
 			alt: "logo",
 		},
 		// 导航栏标题
