@@ -2,7 +2,8 @@ import type { CommentConfig } from "../types/config";
 
 export const commentConfig: CommentConfig = {
 	// 评论系统类型: none, twikoo, waline, giscus, disqus, artalk，默认为none，即不启用评论系统
-	type: "waline",
+	// 暂时禁用：comment.mmzhiku.xyz SSL 证书已过期，修复后改回 "waline" 即可
+	type: "none",
 
 	//twikoo评论系统配置，版本1.7.4
 	twikoo: {
