@@ -1,5 +1,6 @@
 import type { FooterConfig } from "../types/config";
-import { url } from "../utils/url-utils";
+
+const B = import.meta.env.BASE_URL || "/";
 
 export const footerConfig: FooterConfig = {
 	// 社交链接（mailto:/tel: 开头的链接不会在新标签打开）
@@ -30,7 +31,7 @@ export const footerConfig: FooterConfig = {
 	beian: {
 		icp: "粤ICP备2026073665号-1",
 		police: "粤公网安备44060602003342号",
-		policeIcon: url("/assets/images/备案图标.png"),
+		policeIcon: `${B}assets/images/备案图标.png`,
 		icpUrl: "https://beian.miit.gov.cn/#/Integrated/index",
 		policeUrl: "https://beian.mps.gov.cn/#/query/webSearch?code=44060602003342",
 	},

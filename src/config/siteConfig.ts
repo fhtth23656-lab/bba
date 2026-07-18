@@ -1,6 +1,7 @@
 import type { SiteConfig } from "@/types/config";
 import { fontConfig } from "./fontConfig";
-import { url } from "../utils/url-utils";
+
+const B = import.meta.env.BASE_URL || "/";
 
 // 定义站点语言
 // 语言代码，例如：'zh_CN', 'zh_TW', 'en', 'ja', 'ru'。
@@ -49,51 +50,51 @@ export const siteConfig: SiteConfig = {
 	// Favicon 配置
 	favicon: [
 		{
-			src: "/favicon/favicon.ico",
+			src: `${B}favicon/favicon.ico`,
 			sizes: "32x32",
 		},
 		{
-			src: "/favicon/favicon-16x16.png",
+			src: `${B}favicon/favicon-16x16.png`,
 			sizes: "16x16",
 		},
 		{
-			src: "/favicon/favicon-32x32.png",
+			src: `${B}favicon/favicon-32x32.png`,
 			sizes: "32x32",
 		},
 		{
-			src: "/favicon/favicon-48x48.png",
+			src: `${B}favicon/favicon-48x48.png`,
 			sizes: "48x48",
 		},
 		{
-			src: "/favicon/favicon.svg",
+			src: `${B}favicon/favicon.svg`,
 			sizes: "any",
 		},
 		{
-			src: "/favicon/apple-touch-icon.png",
+			src: `${B}favicon/apple-touch-icon.png`,
 			sizes: "180x180",
 		},
 		{
-			src: "/favicon/apple-touch-icon-152x152.png",
+			src: `${B}favicon/apple-touch-icon-152x152.png`,
 			sizes: "152x152",
 		},
 		{
-			src: "/favicon/apple-touch-icon-167x167.png",
+			src: `${B}favicon/apple-touch-icon-167x167.png`,
 			sizes: "167x167",
 		},
 		{
-			src: "/favicon/apple-touch-icon-180x180.png",
+			src: `${B}favicon/apple-touch-icon-180x180.png`,
 			sizes: "180x180",
 		},
 		{
-			src: "/favicon/android-chrome-192x192.png",
+			src: `${B}favicon/android-chrome-192x192.png`,
 			sizes: "192x192",
 		},
 		{
-			src: "/favicon/android-chrome-512x512.png",
+			src: `${B}favicon/android-chrome-512x512.png`,
 			sizes: "512x512",
 		},
 		{
-			src: "/favicon/safari-pinned-tab.svg",
+			src: `${B}favicon/safari-pinned-tab.svg`,
 			sizes: "any",
 		},
 	],
@@ -108,7 +109,7 @@ export const siteConfig: SiteConfig = {
 		// 4. 网络图片: { type: "url", value: "https://example.com/logo.png", alt: "Logo" }
 		logo: {
 			type: "image",
-			value: "/favicon/apple-touch-icon.png",
+			value: `${B}favicon/apple-touch-icon.png`,
 			alt: "logo",
 		},
 		// 导航栏标题
@@ -150,7 +151,7 @@ export const siteConfig: SiteConfig = {
 	// OpenGraph图片功能,注意开启后要渲染很长时间，不建议本地调试的时候开启
 	generateOgImages: false,
 
-	defaultOgImage: url("/assets/images/aut.webp"),
+	defaultOgImage: `${B}assets/images/aut.webp`,
 
 	// 页面开关配置 - 控制特定页面的访问权限，设为false会返回404
 	pages: {
