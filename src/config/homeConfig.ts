@@ -1,4 +1,5 @@
 import type { HomeConfig } from "../types/config";
+import { url } from "../utils/url-utils";
 
 export const homeConfig: HomeConfig = {
 	// 头像
@@ -30,9 +31,9 @@ export const homeConfig: HomeConfig = {
 	bio: ["且视他人之疑目如盏盏鬼火，大胆地去走你的夜路"],
 
 	hero: {
-		backgroundImage: "/assets/images/home/home.webp",
-		backgroundImageMobile: "/assets/images/home/home-mobile.webp",
-		speechAccentImage: "/assets/images/home/home2-1.webp",
+		backgroundImage: url("/assets/images/home/home.webp"),
+		backgroundImageMobile: url("/assets/images/home/home-mobile.webp"),
+		speechAccentImage: url("/assets/images/home/home2-1.webp"),
 		// galgame 对话框（写死暗黑主题）。内容全部由此驱动，可自由增删
 		dialogue: {
 			enabled: true,
@@ -107,10 +108,10 @@ export const homeConfig: HomeConfig = {
 	},
 
 	dataLayer: {
-		visitImage: "/assets/images/home/home-data-1.webp",
-		archiveImage: "/assets/images/home/home-data-2.webp",
-		contactImage: "/assets/images/home/home-data-3.webp",
-		skillsImage: "/assets/images/home/home-data-4.webp",
+		visitImage: url("/assets/images/home/home-data-1.webp"),
+		archiveImage: url("/assets/images/home/home-data-2.webp"),
+		contactImage: url("/assets/images/home/home-data-3.webp"),
+		skillsImage: url("/assets/images/home/home-data-4.webp"),
 	},
 
 	// 展示层：垂直线 → 长柱 → 字体显隐 → 柱子扩全屏 → 衔接百叶窗
@@ -122,7 +123,7 @@ export const homeConfig: HomeConfig = {
 			"Where fleeting visions crystallize into permanence — each frame a frozen breath of time, each work a memory hardened into light.",
 		scrollDistance: 4000,
 		pillarFinalWidth: "18vw",
-		emitterImage: "/assets/images/home-truncated/td.webp",
+		emitterImage: url("/assets/images/home-truncated/td.webp"),
 	},
 
 	portfolioShutter: {
@@ -132,15 +133,15 @@ export const homeConfig: HomeConfig = {
 		description: "岁岁常欢愉，万事皆胜意",
 		scrollDistance: 3000,
 		finalImage: {
-			midgroundImage: "/assets/images/home-truncated/utl-back1.webp",
-			backgroundVideo: "/assets/images/home-truncated/utl-back2.webm",
-			foregroundImage: "/assets/images/home-truncated/utl-1.webp",
+			midgroundImage: url("/assets/images/home-truncated/utl-back1.webp"),
+			backgroundVideo: url("/assets/images/home-truncated/utl-back2.webm"),
+			foregroundImage: url("/assets/images/home-truncated/utl-1.webp"),
 			alt: "2026年 加油！",
 		},
 		interlude: {
-			foreground: "/assets/images/home-truncated/b-1.webp",
-			stripLeft: "/assets/images/home-truncated/b-2.webp",
-			stripRight: "/assets/images/home-truncated/b-3.webp",
+			foreground: url("/assets/images/home-truncated/b-1.webp"),
+			stripLeft: url("/assets/images/home-truncated/b-2.webp"),
+			stripRight: url("/assets/images/home-truncated/b-3.webp"),
 			copyLeft: "菲比",
 			copyRight: "啾比",
 		},

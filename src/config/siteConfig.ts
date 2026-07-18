@@ -1,5 +1,6 @@
 import type { SiteConfig } from "@/types/config";
 import { fontConfig } from "./fontConfig";
+import { url } from "../utils/url-utils";
 
 // 定义站点语言
 // 语言代码，例如：'zh_CN', 'zh_TW', 'en', 'ja', 'ru'。
@@ -149,7 +150,7 @@ export const siteConfig: SiteConfig = {
 	// OpenGraph图片功能,注意开启后要渲染很长时间，不建议本地调试的时候开启
 	generateOgImages: false,
 
-	defaultOgImage: "/assets/images/aut.webp",
+	defaultOgImage: url("/assets/images/aut.webp"),
 
 	// 页面开关配置 - 控制特定页面的访问权限，设为false会返回404
 	pages: {

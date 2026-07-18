@@ -3,6 +3,8 @@ import { onMount, tick } from "svelte";
 import Icon from "@/components/common/Icon.svelte";
 import { aiSearchConfig } from "@/config";
 
+const BASE = import.meta.env.BASE_URL;
+
 interface Message {
 	role: "user" | "assistant";
 	content: string;
@@ -394,7 +396,7 @@ onMount(() => {
 			<div class="ai-header">
 				<div class="ai-header__left">
 					<img
-						src="/assets/images/aut.webp"
+						src={`${BASE}assets/images/aut.webp`}
 						alt="喵墩"
 						class="ai-header__avatar"
 					/>
@@ -455,7 +457,7 @@ onMount(() => {
 					<div class="ai-empty">
 						<div class="ai-empty__icon-wrapper">
 							<img
-								src="/assets/images/aut.webp"
+								src={`${BASE}assets/images/aut.webp`}
 								alt="喵墩"
 								class="ai-empty__avatar"
 							/>
@@ -478,7 +480,7 @@ onMount(() => {
 					>
 						{#if msg.role === "assistant"}
 							<div class="ai-msg__avatar">
-								<img src="/assets/images/aut.webp" alt="喵墩" class="ai-msg__avatar-img" />
+								<img src={`${BASE}assets/images/aut.webp`} alt="喵墩" class="ai-msg__avatar-img" />
 							</div>
 						{/if}
 						<div class="ai-msg__body">

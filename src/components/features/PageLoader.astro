@@ -1,6 +1,7 @@
 ---
 const pathname = Astro.url.pathname;
 const isHome = pathname === "/" || pathname === "";
+const BASE = import.meta.env.BASE_URL;
 ---
 <div
 	id="page-loader"
@@ -16,7 +17,7 @@ const isHome = pathname === "/" || pathname === "";
 		class="page-loader__animation"
 	>
 		<img
-			src="/assets/images/loading/feibi-loading.webp"
+			src={`${BASE}assets/images/loading/feibi-loading.webp`}
 			alt=""
 			class="page-loader__image"
 			width="960"

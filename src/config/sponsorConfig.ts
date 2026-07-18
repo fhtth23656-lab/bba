@@ -1,4 +1,5 @@
 import type { SponsorConfig } from "../types/config";
+import { url } from "../utils/url-utils";
 
 export const sponsorConfig: SponsorConfig = {
 	// 页面标题，如果留空则使用 i18n 中的翻译
@@ -19,7 +20,7 @@ export const sponsorConfig: SponsorConfig = {
 			name: "菲比啾比支付",
 			icon: "material-symbols:chat-bubble",
 			// 收款码图片路径（需要放在 public 目录下）
-			qrCode: "/assets/images/wechat-pay.webp",
+			qrCode: url("/assets/images/wechat-pay.webp"),
 			link: "",
 			description: "",
 			enabled: true,
